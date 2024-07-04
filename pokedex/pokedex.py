@@ -1,8 +1,7 @@
 import csv
-from prettytable import PrettyTable 
 import pandas as pd
 
-pokedex = pd.read_csv("./pokemon_datas/pokemon.csv")
+pokedex = pd.read_csv("pokemon_datas/pokemon.csv")
 
 def main():
     while True:
